@@ -14,5 +14,5 @@ int Urzadzenie::daj_obroty()
 
 void Urzadzenie::pokaz_opis()
 {
-	std::cout << firma << " " << obroty;
+	std::cout << firma << " " << obroty << std::endl;
 }

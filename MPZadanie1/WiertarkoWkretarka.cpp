@@ -19,5 +19,5 @@ int WiertarkoWkretarka::daj_czas_ladowania()
 
 void WiertarkoWkretarka::pokaz_opis()
 {
-	std::cout << firma <<" "<< obroty <<" " << napiecie << " " << bateria << " " << czas_ladowania;
+	std::cout << firma <<" "<< obroty <<" " << napiecie << " " << bateria << " " << czas_ladowania << std::endl;
 }

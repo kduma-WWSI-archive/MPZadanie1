@@ -13,5 +13,5 @@ int SzlifierkaKatowa::daj_tarcze()
 
 void SzlifierkaKatowa::pokaz_opis()
 {
-	std::cout << firma << obroty << tarcza << moc;
+	std::cout << firma << " " << obroty << " " << tarcza << " " << moc;
 }
